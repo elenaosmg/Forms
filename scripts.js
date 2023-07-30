@@ -13,6 +13,7 @@ window.addEventListener("load", function() {
         || productionGradeServersInput.value === "") 
         {
        alert("All fields are required")
+       event.preventDefault()
         }
 })
 
